@@ -47,7 +47,7 @@ class _ProductBannerSheetState extends State<ProductBannerSheet> {
                     ? const BoxConstraints()
                     : const BoxConstraints(maxHeight: 250),
                 child: Image.asset(
-                  'assets/images/${widget.productAssets}banner.png',
+                  'assets/images/banner.png',
                   fit: BoxFit.cover,
                   alignment: Alignment.topCenter,
                   width: double.infinity,

@@ -45,9 +45,9 @@ class SampleData {
     Product(
       brandID: apple,
       productName: 'iPhone 16 Pro',
-      productAssets: 'dummy-',
+      productAssets: 'iphone16pro-',
       colors: [Colors.white60, Colors.yellowAccent, Colors.blueAccent],
-      space: [256, 512, 1024],
+      space: [256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'A18 Pro'),
         Spec(icon: const Icon(Icons.camera_alt), title: 'Camera', content: '48MP Triple Camera'),
@@ -62,7 +62,7 @@ class SampleData {
       productName: 'iPhone 16 Pro Max',
       productAssets: 'dummy-',
       colors: [Colors.black, Colors.white60],
-      space: [256, 512, 1024],
+      space: [256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'A18 Pro'),
         Spec(icon: const Icon(Icons.camera_alt), title: 'Camera', content: '48MP Main + 12MP Ultra + 12MP Telephoto'),
@@ -92,7 +92,7 @@ class SampleData {
       productName: 'MacBook Pro',
       productAssets: 'dummy-',
       colors: [Colors.grey, Colors.white60],
-      space: [512, 1024, 2048],
+      space: [256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Processor', content: 'M3 Pro'),
         Spec(icon: const Icon(Icons.storage), title: 'RAM', content: '16GB Unified Memory'),
@@ -107,7 +107,7 @@ class SampleData {
       productName: 'iPad Pro',
       productAssets: 'dummy-',
       colors: [Colors.grey, Colors.white60],
-      space: [256, 512, 1024],
+      space: [64, 128, 256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'M3'),
         Spec(icon: const Icon(Icons.display_settings), title: 'Display', content: '12.9-inch Liquid Retina XDR'),
@@ -122,7 +122,7 @@ class SampleData {
       productName: 'MacBook Air',
       productAssets: 'dummy-',
       colors: [Colors.yellowAccent, Colors.grey],
-      space: [512, 1024],
+      space: [128, 256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Processor', content: 'M2'),
         Spec(icon: const Icon(Icons.display_settings), title: 'Display', content: '13.6-inch Retina'),
@@ -135,9 +135,9 @@ class SampleData {
     Product(
       brandID: apple,
       productName: 'iPad Air',
-      productAssets: 'dummy-',
+      productAssets: 'ipadair-',
       colors: [Colors.blue, Colors.grey],
-      space: [256, 512],
+      space: [32, 64, 128, 256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'M1'),
         Spec(icon: const Icon(Icons.display_settings), title: 'Display', content: '10.9-inch Liquid Retina'),
@@ -152,7 +152,7 @@ class SampleData {
       productName: 'iPad 10th Gen',
       productAssets: 'dummy-',
       colors: [Colors.yellow, Colors.pink],
-      space: [128, 256],
+      space: [64, 128, 256],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'A14 Bionic'),
         Spec(icon: const Icon(Icons.display_settings), title: 'Display', content: '10.9-inch Retina'),
@@ -167,9 +167,9 @@ class SampleData {
     Product(
       brandID: google,
       productName: 'Pixel 10',
-      productAssets: 'dummy-',
+      productAssets: 'pixel10-',
       colors: [Colors.white, Colors.green],
-      space: [128, 256],
+      space: [64, 128, 256],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'Tensor G4'),
         Spec(icon: const Icon(Icons.camera_alt), title: 'Camera', content: '50MP Dual'),
@@ -184,7 +184,7 @@ class SampleData {
       productName: 'Pixel 10 Pro',
       productAssets: 'dummy-',
       colors: [Colors.black, Colors.yellowAccent],
-      space: [256, 512],
+      space: [128, 256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'Tensor G4 Pro'),
         Spec(icon: const Icon(Icons.camera_alt), title: 'Camera', content: '50MP + 48MP + 12MP'),
@@ -199,7 +199,7 @@ class SampleData {
       productName: 'Pixel 9a',
       productAssets: 'dummy-',
       colors: [Colors.green, Colors.white],
-      space: [128, 256],
+      space: [32, 64, 128, 256],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'Tensor G3 Lite'),
         Spec(icon: const Icon(Icons.camera_alt), title: 'Camera', content: '48MP Single'),
@@ -248,7 +248,7 @@ class SampleData {
       productName: 'OnePlus 13',
       productAssets: 'dummy-',
       colors: [Colors.red, Colors.black],
-      space: [256, 512],
+      space: [128, 256, 512],
       specifications: [
         Spec(icon: const Icon(Icons.memory), title: 'Chip', content: 'Snapdragon 8 Gen 3'),
         Spec(icon: const Icon(Icons.camera_alt), title: 'Camera', content: '50MP Triple Camera'),
