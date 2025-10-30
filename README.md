@@ -1,16 +1,10 @@
 # tortoise_assignment
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter Version used => 
+[✓] Flutter (Channel stable, 3.32.5, on macOS 15.3.1 24D70 darwin-arm64, locale en-US) [444ms]
+    • Flutter version 3.32.5 on channel stable at /_/_/_/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision fcf2c11572 (4 months ago), 2025-06-24 11:44:07 -0700
+    • Engine revision dd93de6fb1
+    • Dart version 3.8.1
+    • DevTools version 2.45.1
